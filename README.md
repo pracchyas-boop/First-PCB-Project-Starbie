@@ -54,4 +54,15 @@ Now download art you want to put on your PCB. Either make it yourself via anothe
 
 <img width="311" height="540" alt="image" src="https://github.com/user-attachments/assets/6ab49072-3b85-4a30-a63b-02d8aa6de731" />
 
+Put these images into a folder (that you make) called Images, placed inside the Week 1 care package folder. Import it into the footprint library. Now, click "place footprints" and find Images, then select your art.
+
+<img width="280" height="188" alt="image" src="https://github.com/user-attachments/assets/de76c363-985d-49e0-932e-c3c1375c0dbb" />
+
+And just put it onto your schematic. If you put the art close to the edge, you'll get a warning, but it's ignorable. To find warnings/errors, run DRC
+
+<img width="41" height="58" alt="image" src="https://github.com/user-attachments/assets/314ddbaa-bd4e-473b-9242-412faccf914c" />
+
+This should be all you have: 
+
+<img width="715" height="610" alt="image" src="https://github.com/user-attachments/assets/a6069e30-9e9e-4b07-a84b-f6a90613c687" />
 
