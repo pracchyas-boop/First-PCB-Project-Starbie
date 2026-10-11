@@ -66,3 +66,46 @@ This should be all you have:
 
 <img width="715" height="610" alt="image" src="https://github.com/user-attachments/assets/a6069e30-9e9e-4b07-a84b-f6a90613c687" />
 
+Now go to Arduino to make the firmware. The actual program is Firmware/Starbie/Starbie.ino. Keep the Starbie folder and the Starbie.ino file together; Arduino IDE expects the sketch file to be inside a folder with the same name.
+
+Follow these directions (taken straight from the guide):
+
+Install the current Arduino IDE.
+
+Open File → Preferences. In Additional Boards Manager URLs, add:
+
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
+Open Tools → Board → Boards Manager, search for esp32, and install esp32 by Espressif Systems.
+
+Under Tools → Board → esp32, select XIAO_ESP32C3.
+
+Open Sketch → Include Library → Manage Libraries. Install these libraries one at a time:
+
+Adafruit GFX Library
+Adafruit SSD1306
+Adafruit MPU6050
+DHT sensor library
+If Arduino asks to install dependencies, choose Install All.
+(end of these directions)
+
+Now find "void drawHeart" in the code, and add this above it:
+void drawSparkle(int x, int y) {
+  display.drawPixel(x, y - 2, SSD1306_WHITE);
+  display.drawPixel(x - 1, y - 1, SSD1306_WHITE);
+  display.drawPixel(x + 1, y - 1, SSD1306_WHITE);
+  display.drawPixel(x - 2, y, SSD1306_WHITE);
+  display.drawPixel(x, y, SSD1306_WHITE);
+  display.drawPixel(x + 2, y, SSD1306_WHITE);
+  display.drawPixel(x - 1, y + 1, SSD1306_WHITE);
+  display.drawPixel(x + 1, y + 1, SSD1306_WHITE);
+  display.drawPixel(x, y + 2, SSD1306_WHITE);
+}
+
+Add this below display.drawBitmap()
+if (!isNapping() && (now / 250) % 2 == 0) {
+  drawSparkle(petX - 4, petY + 18);
+}
+
+Make a black and white 32x32 design for the sprite of your pet. Make a horizontal 1 bit per pixel output via image2cpp (website), and then find this in the code:
+const uint8_t PROGMEM PET_SPRITE[] {
+In the curly brackets, add the Arduino byte array you get from image2cpp.
