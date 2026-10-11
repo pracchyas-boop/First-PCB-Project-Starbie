@@ -18,5 +18,6 @@ Now open the schematic editor. By clicking a, you can import components. The com
 - Conn_01x04_Pin
 - SW_Push (x2)
 <img width="264" height="62" alt="image" src="https://github.com/user-attachments/assets/4e9ea15c-aba7-48f2-b426-eb98ec7f837b" />
+
 <img width="480" height="447" alt="image" src="https://github.com/user-attachments/assets/4600ac5f-2534-48bc-8339-b5e7769c2673" />
 
