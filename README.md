@@ -36,6 +36,22 @@ Change ALL of the components' assigned footprints such that they are assigned as
 
 <img width="997" height="487" alt="image" src="https://github.com/user-attachments/assets/79aafef3-9e24-4225-898b-ac0b2f0deaef" />
 
-Now click this:
+Then save and leave the schematic editor, go to PCB editor, and click this:
 
-<img width="700" height="160" alt="image" src="https://github.com/user-attachments/assets/3ed0657f-0ab6-4491-a6b6-c777885d3e32" />
+<img width="700" height="160" alt="image" src="https://github.com/user-attachments/assets/19777dc7-383d-4ffc-8383-dbaac59561d0" />
+
+Now all your schematics should be laid out in PCB editor now. I recommend you route the by clicking l. Click any golden pad which has a blue line connecting it to another, and the screen should dim and show you where to go.
+
+Now use "draw polygons" to create an outline for the PCB. This is the grey area in the above image of my PCB. Make any shape you want.
+
+<img width="297" height="200" alt="image" src="https://github.com/user-attachments/assets/4c1686c8-2d1f-4956-8aaf-97e602231054" />
+
+Now you want to add art. Save your project, and open Image Converter
+
+<img width="424" height="56" alt="image" src="https://github.com/user-attachments/assets/fe86fd45-05ac-40ae-9ec0-d78f0c3bb5b5" />
+
+Now download art you want to put on your PCB. Either make it yourself via another application, or download it online. After doing that, go back to Image converter and click "load source image" and export the art. Determine the output size, ensure the file is .kicad_mod, and is silkscreen (I may have amde a mistake where I made it copper and had to fix it. Oops!)
+
+<img width="311" height="540" alt="image" src="https://github.com/user-attachments/assets/6ab49072-3b85-4a30-a63b-02d8aa6de731" />
+
+
