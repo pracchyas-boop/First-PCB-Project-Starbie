@@ -90,6 +90,7 @@ If Arduino asks to install dependencies, choose Install All.
 (end of these directions)
 
 Now find "void drawHeart" in the code, and add this above it:
+
 void drawSparkle(int x, int y) {
   display.drawPixel(x, y - 2, SSD1306_WHITE);
   display.drawPixel(x - 1, y - 1, SSD1306_WHITE);
@@ -103,6 +104,7 @@ void drawSparkle(int x, int y) {
 }
 
 Add this below display.drawBitmap()
+
 if (!isNapping() && (now / 250) % 2 == 0) {
   drawSparkle(petX - 4, petY + 18);
 }
