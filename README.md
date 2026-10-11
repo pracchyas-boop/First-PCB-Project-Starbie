@@ -11,6 +11,7 @@ Firstly, download this Week 1 care package unzip it. Then open KiCad. Go to pref
 <img width="571" height="246" alt="image" src="https://github.com/user-attachments/assets/112f619a-e5f6-4071-9ebb-e183af36cbac" />
 
 Now open the schematic editor. By clicking a, you can import components. 
+
 <img width="264" height="62" alt="image" src="https://github.com/user-attachments/assets/4e9ea15c-aba7-48f2-b426-eb98ec7f837b" />
 
 
