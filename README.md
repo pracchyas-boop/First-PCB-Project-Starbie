@@ -12,6 +12,8 @@ Firstly, download this Week 1 care package unzip it. Then open KiCad. Go to pref
 
 Now open the schematic editor. By clicking a, you can import components. 
 <img width="264" height="62" alt="image" src="https://github.com/user-attachments/assets/4e9ea15c-aba7-48f2-b426-eb98ec7f837b" />
+
+
 The components you need to import are:
 - XIAO-ESP32-C3-SMD
 - DHT11
