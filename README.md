@@ -5,6 +5,10 @@ Starbie is a Tamagotchi-like toy, containing a pet which has several reactions t
 
 <img width="3840" height="2160" alt="Starbie Render" src="https://github.com/user-attachments/assets/ed75d2d9-1f80-4b57-bf22-393b22478d8b" />
 
+However, MY end product will look like this:
+
+<img width="1002" height="896" alt="Screenshot 2026-10-11 011347" src="https://github.com/user-attachments/assets/8541a5fb-b12d-48f1-9348-6a441eabbe95" />
+
 In order to create the Starbie, you will need KiCad and Arduino IDE.
 
 Firstly, download this Week 1 care package unzip it. Then open KiCad. Go to preferences, and then import the .sym files into the symbol library, and the .pretty files into the footprint library. These can be configured in KiCad's preferences.
