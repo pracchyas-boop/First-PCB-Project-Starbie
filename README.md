@@ -28,3 +28,14 @@ The components you need to import are:
 - SW_Push (x2)
 <img width="480" height="447" alt="image" src="https://github.com/user-attachments/assets/4600ac5f-2534-48bc-8339-b5e7769c2673" />
 
+Next you will need to assign footprints to these components
+
+<img width="444" height="144" alt="image" src="https://github.com/user-attachments/assets/660fdda9-65b9-4064-9824-28e214247f17" />
+
+Change ALL of the components' assigned footprints such that they are assigned as this:
+
+<img width="997" height="487" alt="image" src="https://github.com/user-attachments/assets/79aafef3-9e24-4225-898b-ac0b2f0deaef" />
+
+Now click this:
+
+<img width="700" height="160" alt="image" src="https://github.com/user-attachments/assets/3ed0657f-0ab6-4491-a6b6-c777885d3e32" />
