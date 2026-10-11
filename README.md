@@ -1,3 +1,4 @@
+
 # First-PCB-Project-Starbie
 For Hack Club's event "Half Life", I started out by making my own version of the PCB for Starbie, changing several details of the template provided along the way.
 
@@ -11,7 +12,7 @@ However, MY end product will look like this:
 
 In order to create the Starbie, you will need KiCad and Arduino IDE.
 
-Firstly, download this Week 1 care package unzip it. Then open KiCad. Go to preferences, and then import the .sym files into the symbol library, and the .pretty files into the footprint library. These can be configured in KiCad's preferences.
+Firstly, download [this Week 1 care package](https://github.com/SharKingStudios/Starbie/raw/refs/heads/main/Week%201%20Care%20Package.zip) and unzip it. Then open KiCad. Go to preferences, and then import the .sym files into the symbol library, and the .pretty files into the footprint library. These can be configured in KiCad's preferences.
 <img width="571" height="246" alt="image" src="https://github.com/user-attachments/assets/112f619a-e5f6-4071-9ebb-e183af36cbac" />
 
 Now open the schematic editor. By clicking a, you can import components. 
